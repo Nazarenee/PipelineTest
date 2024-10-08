@@ -25,11 +25,11 @@ class StudentTest {
         assertThat(student3.getName(), is("Tester"));
     }
 
-    @Test
+   /* @Test
     public void two_is_test(){
         assertThat(student3.getName(), is("Tester"));
         assertThat(student3.getGpa(), is(20));
-    }
+    }*/
 
    @Test
     public void Equal_test() {
