@@ -28,7 +28,7 @@ class StudentTest {
     @Test
     public void two_is_test(){
         assertThat(student3.getName(), is("Tester"));
-        assertThat(student3.getGpa(), is(10));
+        assertThat(student3.getGpa(), is(20));
     }
 
    @Test
